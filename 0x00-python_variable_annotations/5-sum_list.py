@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """defiens sum_list() function"""
 
+from typing import List
 
-def sum_list(input_lst: list[float]) -> float:
+
+def sum_list(input_lst: List[float]) -> float:
     """returns the sum of the list"""
-    fsum: float = 0
-    for i in input_lst:
-        fsum += i
-
-    return fsum
+    return sum(input_lst)
