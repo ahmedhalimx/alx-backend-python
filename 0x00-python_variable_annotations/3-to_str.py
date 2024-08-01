@@ -4,7 +4,7 @@
 '''
 
 
-def to_str(n: float) -> int:
+def to_str(n: float) -> str:
     '''
         returns the string represention of n
     '''
